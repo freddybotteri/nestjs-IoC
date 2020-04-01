@@ -1,0 +1,12 @@
+.idea/
+node_modules/
+dist/
+*.iml
+webpack-assets.json
+webpack-stats.json
+npm-debug.log
+package-lock.json
+static/media/image/PASO*
+static/media/audio/*
+!static/media/video/vtt
+!static/media/video/rtf
