@@ -1,3 +1,5 @@
+import {User} from "../../domain/User";
+
 export interface serviceUserI {
-    getAllUser():string[];
+    getAllUser():Promise<User[]>;
 }

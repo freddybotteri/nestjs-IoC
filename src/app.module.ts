@@ -16,7 +16,7 @@ import {ServiceUserProvider,RepositoryUserProvider} from "./containerdependencie
     database: 'evoluciona',
     entities: [User],
     synchronize: true,
-  })],
+  }) , TypeOrmModule.forFeature([User])],
   controllers: [AppController,UserControllerAdapter],
   providers: [AppService,ServiceUserProvider,RepositoryUserProvider],
   exports: []

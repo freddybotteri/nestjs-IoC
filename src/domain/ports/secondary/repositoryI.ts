@@ -1,4 +1,5 @@
+import {User} from "../../User";
 
 export interface repositoryI {
-     getAllUser():any;
+     getAllUser():Array<User>;
 }

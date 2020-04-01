@@ -2,7 +2,7 @@ import { serviceUserI } from "../application/services/serviceUserI";
 import {ServiceUserAdapter} from "../application/services/serviceUserAdapter";
 
 import { repositoryI } from "../domain/ports/secondary/repositoryI";
-import { Repository } from "../infrastructure/repository/repository";
+import { UserRepository } from "../infrastructure/repository/userRepository";
 
 import {Provider} from "@nestjs/common";
     export const ServiceUserProvider: Provider = {
@@ -11,7 +11,7 @@ import {Provider} from "@nestjs/common";
     };
     export const RepositoryUserProvider: Provider = {
         provide: 'repositoryI',
-        useClass: Repository,
+        useClass: UserRepository,
     };
 
 
