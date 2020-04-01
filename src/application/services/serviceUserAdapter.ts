@@ -1,5 +1,5 @@
 import {Inject, Injectable} from "@nestjs/common";
-import  { repositoryI }  from "../../domain/ports/secundary/repositoryI";
+import  { repositoryI }  from "../../domain/ports/secondary/repositoryI";
 import {serviceUserI} from "./serviceUserI";
 
 @Injectable()

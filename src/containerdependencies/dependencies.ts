@@ -1,7 +1,7 @@
 import { serviceUserI } from "../application/services/serviceUserI";
 import {ServiceUserAdapter} from "../application/services/serviceUserAdapter";
 
-import { repositoryI } from "../domain/ports/secundary/repositoryI";
+import { repositoryI } from "../domain/ports/secondary/repositoryI";
 import { Repository } from "../infrastructure/repository/repository";
 
 import {Provider} from "@nestjs/common";

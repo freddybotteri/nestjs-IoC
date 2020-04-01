@@ -1,4 +1,4 @@
-import {repositoryI} from "../../domain/ports/secundary/repositoryI";
+import {repositoryI} from "../../domain/ports/secondary/repositoryI";
 import {Injectable} from "@nestjs/common";
 import {getManager} from "typeorm";
 import {User} from "./entitys/user.entity";
